@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="">
-    <img alt="ditto" src="https://kevinchisaki.github.io/ditto-site/img/ditto-bot-monogram.svg" width="80px" />
+  <a href="http://www.dittobot.fyi/" target="_blank">
+    <img alt="ditto" src="http://www.dittobot.fyi/img/ditto-bot-monogram.svg" width="80px" />
   </a>
 </p>
 
@@ -28,43 +28,14 @@
 * Tags photos & files and stores them.
 * Shares your libraries with everyone in your server.
 
-## Ditto Commands
+## dittobot.fyi
 
-### :pushpin: Saving Stuff
+This site was created with [Tachyons](http://tachyons.io/)
 
-To save something to a library, react with a :ditto: and ditto will ask you which library to add it to.
+## Font Awesome
 
-### :books: Create & Organize Media with Libraries
+All icons are from [Font Awesome](https://fontawesome.com/?from=io)
 
-#### `$newLibrary <library name>`
-
-Add media to an existing library or create new libraries with `$newLibrary <library name>` and give it a name.
-
-### :eyes: Share & List Your Libraries
-
-#### `$myLibraries`
-
-Ditto will list the libraries that you have on shelf.
-
-#### `$Library <library name>`
-
-Reference a library with `$Library <library name>` and share with your friends!
-
-### :x: Deleting Libraries
-
-#### `$deleteLibrary <library name>`
-
-This command will delete an entire library. Ditto will ask for confirmation just to be sure.
-
-### :game_die: Random Photo
-
-#### `$surpriseMe`
-
-Ditto can randomly post a photo with `$surpriseMe` for the whole server to enjoy!
-
-#### `$surpriseMe <library name>`
-
-Ditto can also spit out a random photo in a specific library to share.
 
 ## Credits
 
