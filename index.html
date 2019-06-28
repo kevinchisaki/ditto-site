@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>
+
+    </title>
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/tachyons.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c379a817d9.js"></script>
+  </head>
+  <body class="open-sans">
+
+    <div class="ditto-header">
+      <div class="content-header fl w-100">
+        <h1 class="fw6 f1">
+          Meet Ditto
+        </h1>
+        <h2 class="fw3 f3">
+          Your media squire for Discord
+        </h2>
+        <div class="flex justify-center">
+          <img src="../img/ditto-soon.svg" id="dittoSoon" class="ditto-soon">
+        </div>
+        <a href="#" class="discord-button fw6 f6 grow no-underline br-pill ph4 mb2 dib white" id="discordButton" onclick="showDitto()">
+            <div class="flex items-center">
+              <span class="fa-icon fw3"><i class="fab fa-discord"></i></span> ADD TO DISCORD
+            </div>
+        </a>
+      </div>
+      <div class="video-container flex justify-center">
+          <div class="ditto-video">
+
+          </div>
+      </div>
+      <img src="../img/swoosh.svg" class="swoosh">
+    </div>
+
+    <section class="flex flex-wrap items-center details-row">
+      <div class="w-third-l w-80-ns pa2 details">
+        <h1 class="fw7 f3 purple">Save Photos</h1>
+        <h2 class="fw3 f4">Pictures get lost in chat.<br> Ditto can save them for you!</h2>
+      </div>
+
+      <div class="w-third-l w-80-ns pa2 details">
+        <h1 class="fw7 f3 purple">Make Libraries</h1>
+        <h2 class="fw3 f4">Ditto can tag your photos and<br> group them into libraries.</h2>
+      </div>
+
+      <div class="w-third-l w-80-ns pa2 details">
+        <h1 class="fw7 f3 purple">Share with Friends</h1>
+        <h2 class="fw3 f4">Ditto can bring up your libraries<br> for the whole server to enjoy!</h2>
+      </div>
+    </section>
+
+    <section class="flex flex-wrap items-center pv3-ns pv6-l mh7-l showcase">
+      <div class="w-50-l w-80-ns pa2">
+        <div class="flex justify-center">
+          <img src="../img/ditto-bot-saving-things.svg" class="showcase-img">
+        </div>
+      </div>
+      <div class="w-50-l w-80-ns pa2">
+        <div class="flex justify-center">
+          <div class="showcase-details">
+            <h1 class="fw7 f3 purple">
+                Saving Stuff!
+            </h1>
+            <h2 class="fw3 f4">
+              Want to save something and tag it into a library?<br>
+               React with a :ditto: and ditto will do the rest!
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="flex flex-wrap items-center flex-row-l flex-column-reverse-ns pv3-ns pv4-l mh7-l showcase">
+        <div class="w-50-l w-80-ns pa2">
+            <div class="flex justify-center">
+              <div class="showcase-details">
+                <h1 class="fw7 f3 purple">
+                    Libraries
+                </h1>
+                <h2 class="fw3 f4">
+                    Add media to an existing library or create new<br>
+                     libraries with <span class="purple b">$newLibrary</span> and give it a name.
+                </h2>
+              </div>
+            </div>
+        </div>
+        <div class="w-50-l w-80-ns pa2">
+          <div class="flex justify-center">
+            <img src="../img/ditto-bot-libraries.svg" class="showcase-img">
+          </div>
+        </div>
+      </section>
+
+      <section class="flex flex-wrap items-center pv3-ns pv6-l mh7-l showcase">
+          <div class="w-50-l w-80-ns pa2">
+            <div class="flex justify-center">
+              <img src="../img/ditto-bot-sharing.svg" class="showcase-img">
+            </div>
+          </div>
+          <div class="w-50-l w-80-ns pa2">
+            <div class="flex justify-center">
+              <div class="showcase-details">
+                <h1 class="fw7 f3 purple">
+                    Share Libraries
+                </h1>
+                <h2 class="fw3 f4">
+                    Reference a library with <span class="purple b">$Library</span> <br>
+                     and share with your friends!
+                </h2>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="ditto-footer">
+            <img src="../img/swoosh-bottom.svg" class="swoosh-bottom">
+            <div class="content-footer fl w-100-l">
+              <h1 class="fw6 f3">
+                Full Command List
+              </h1>
+              <h2 class="fw3 f4">
+                Just ask ditto with <span class="b">$help</span> or view our developer page.
+              </h2>
+              <a href="" class="github-button fw6 f5 grow no-underline br-pill mb2 dib white">
+                  <div class="flex items-center">
+                    <span class="fa-icon"><i class="fab fa-github"></i></span> GITHUB
+                  </div>
+              </a>
+              <footer class="credits flex justify-center flex-column-ns">
+                  <p class="f6">
+                    © 2019 <a href="https://github.com/ditto-dev-team" class="white credits-link">Bot Development Team:</a>
+                  </p>
+                  <p class="f6">
+                    <span><a href="https://github.com/kevinchisaki" class="white credits-link">Kevin Chisaki</a></span>
+                    &#8226;
+                    <span><a href="https://github.com/argwood" class="white credits-link">Arin Greenwood</a></span>
+                    &#8226;
+                    <span><a href="https://github.com/brennengreen" class="white credits-link">Brennen Green</a></span>
+                  </p>
+                </footer>
+            </div>
+        </div>
+
+        <script>
+            document.getElementById("dittoSoon").style.display = 'none';
+
+            function showDitto() {
+              
+              var x = document.getElementById("dittoSoon");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+        </script>
+  </body>
+</html>

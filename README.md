@@ -1,6 +1,6 @@
 <p align="center">
   <a href="">
-    <img alt="ditto" src="ditto-bot-monogram.svg" width="80px" />
+    <img alt="ditto" src="https://kevinchisaki.github.io/ditto-site/img/ditto-bot-monogram.svg" width="80px" />
   </a>
 </p>
 
@@ -17,8 +17,8 @@
   <a href="https://www.heroku.com/">
     <img src="https://img.shields.io/badge/host-Heroku-%23C77AE6.svg" alt="ditto is hosted on heroku" />
   </a>
-  <a href="">
-    <img src="https://img.shields.io/badge/discord.py-1.1.1-%23C77AE6.svg" alt="ditto is made with python" />
+  <a href="https://github.com/Rapptz/discord.py">
+    <img src="https://img.shields.io/badge/built with-Discord.py-%23C77AE6.svg" alt="ditto is made with python" />
   </a>
 </p>
 
@@ -36,21 +36,35 @@ To save something to a library, react with a :ditto: and ditto will ask you whic
 
 ### :books: Create & Organize Media with Libraries
 
-#### `$newLibrary`
+#### `$newLibrary <library name>`
 
 Add media to an existing library or create new libraries with `$newLibrary <library name>` and give it a name.
 
-### :eyes: Share Your Libraries
+### :eyes: Share & List Your Libraries
 
-#### `$Library`
+#### `$myLibraries`
+
+Ditto will list the libraries that you have on shelf.
+
+#### `$Library <library name>`
 
 Reference a library with `$Library <library name>` and share with your friends!
+
+### :x: Deleting Libraries
+
+#### `$deleteLibrary <library name>`
+
+This command will delete an entire library. Ditto will ask for confirmation just to be sure.
 
 ### :game_die: Random Photo
 
 #### `$surpriseMe`
 
 Ditto can randomly post a photo with `$surpriseMe` for the whole server to enjoy!
+
+#### `$surpriseMe <library name>`
+
+Ditto can also spit out a random photo in a specific library to share.
 
 ## Credits
 
