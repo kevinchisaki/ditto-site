@@ -36,6 +36,7 @@
 
   .discord-button {
     background: linear-gradient(257.92deg, #485563 0%, #29323C 100%);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
     padding: 12px 30px;
   }
 
@@ -46,13 +47,18 @@
 
   .ditto-video {
     box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.15);
-    background: #36393E;
+    background: #3f4149;
     position: absolute;
     border-radius: 10px;
     margin-top: 40px;
-    height: 300px;
-    width: 70vw;
+    padding: 20px; 
     z-index: 999;
+    width: 95%;
+  }
+
+  .ditto-video > video {
+    width: 100%;
+    height: auto;
   }
 
   section {
@@ -61,7 +67,7 @@
   }
 
   .details-row {
-    margin-top: 80px;
+    margin-top: 140px;
   }
 
   .details {
@@ -107,6 +113,7 @@
 
   .github-button {
     background: linear-gradient(257.92deg, #485563 0%, #29323C 100%);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
     padding: 10px 60px;
   }
 
@@ -177,8 +184,13 @@
   }
 
   .ditto-video {
-    width: 40vw;
-    height: 400px;
+    padding: 40px;
+    width: auto;
+  }
+
+  .ditto-video > video {
+    width: 100%;
+    height: auto;
   }
 
   .showcase-details {
