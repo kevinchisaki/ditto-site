@@ -2454,7 +2454,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .content-header > h1 { margin-top: 100px; margin-bottom: 14px; }
  .content-header > h2 { margin-top: 0; margin-bottom: 50px; }
  .discord-button { background: linear-gradient( 257.92deg, #485563 0%, #29323c 100% ); box-shadow: 0 4px 20px rgba( 0, 0, 0, .25 ); padding: 12px 30px; }
- .video-container { width: 100%; z-index: 998; }
+ .video-container { width: 100%; z-index: 999; }
  .ditto-video { box-shadow: 0 20px 20px rgba( 0, 0, 0, .15 ); background: #3f4149; position: absolute; border-radius: 10px; margin-top: 40px; padding: 20px; z-index: 999; width: 95%; }
  .ditto-video > video { width: 100%; height: auto; }
  section { display: -webkit-box; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; }
