@@ -61,13 +61,13 @@
     height: auto;
   }
 
-  section {
+  /* section {
     display: flex;
     flex-direction: column;
-  }
+  } */
 
   .details-row {
-    margin-top: 140px;
+    margin-top: 20vw;
   }
 
   .details {
@@ -102,7 +102,7 @@
   }
 
   .content-footer > h1 {
-    margin-top: 200px;
+    margin-top: 34vw;
     margin-bottom: 14px;
   }
 
@@ -172,12 +172,18 @@
 
 }
 
+@media (--breakpoint-medium) {
+  
+
+  
+}
+
 @media (--breakpoint-large) {
 
-  section {
+  /* section {
     display: flex;
     flex-direction: row;
-  }
+  } */
   
   .ditto-header {
     height: 80vh;
@@ -191,6 +197,10 @@
   .ditto-video > video {
     width: 100%;
     height: auto;
+  }
+
+  .details-row {
+    margin-top: 9vw;
   }
 
   .showcase-details {
