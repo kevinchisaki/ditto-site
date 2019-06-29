@@ -2460,17 +2460,17 @@ code, .code { font-family: Consolas, monaco, monospace; }
     display: flex;
     flex-direction: column;
   } */
- .details-row { margin-top: 20vw; }
+ .details-row { margin-top: 14vh; }
  .details { text-align: center; }
  .details > h2 { line-height: 1.8rem; }
- .showcase-img { box-shadow: 0 20px 20px rgba( 0, 0, 0, .15 ); }
+ .showcase-img { margin-top: 4vh; margin-bottom: 2vh; }
  .showcase-details { text-align: center; }
  .showcase-details > h2 { line-height: 1.8rem; }
  .ditto-footer { background: linear-gradient( 239.42deg, #ba68c8 0%, #6890e8 100% ); color: #fff; text-align: center; height: 60vh; position: relative; width: 100%; margin: 0; padding: 0; }
  .content-footer > h1 { margin-top: 34vw; margin-bottom: 14px; }
  .content-footer > h2 { margin-top: 0; margin-bottom: 30px; }
  .github-button { background: linear-gradient( 257.92deg, #485563 0%, #29323c 100% ); box-shadow: 0 4px 20px rgba( 0, 0, 0, .25 ); padding: 10px 60px; }
- .swoosh-bottom { position: absolute; display: block; min-width: 100%; width: 100%; }
+ .swoosh-bottom { position: absolute; display: block; min-width: 100%; width: 100%; top: -1px; }
  .fa-icon { font-size: 1.6em; padding-right: 10px; }
  .credits { background-color: rgba( 0, 0, 0, .2 ); padding: 10px; position: absolute; color: #fff; min-width: 100%; width: 100%; bottom: 0; }
  .credits > p > a { text-decoration: none; }
@@ -3332,7 +3332,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .ditto-header { height: 80vh; }
  .ditto-video { padding: 40px; width: auto; }
  .ditto-video > video { width: 100%; height: auto; }
- .details-row { margin-top: 9vw; }
+ .details-row { margin-top: 14vh; }
+ .showcase-img { box-shadow: 0 20px 20px rgba( 0, 0, 0, .15 ); -webkit-box-shadow: 0 20px 20px rgba( 0, 0, 0, .15 ); }
  .showcase-details { text-align: left; }
  br { display: inline-block; }
  .ditto-footer { height: 70vh; }
